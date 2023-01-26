@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <noscript>
+      <div id="noJS" class="ac-msg__no-js" role="alert">
+        <p class="mf-paragraph-header">JavaScript desactivado</p>
+        <p>Es posible que JavaScript no esté activado en su navegador y es necesario para el funcionamiento de este sitio. Por favor, actívelo para poder continuar y recargue la página.</p>
+      </div>
+    </noscript>
+    <link rel="stylesheet" href="../assets/styles/css/main.css">
+    <title>Maser</title>
+  </head>
+  <body class="maser">
+    <header>
+      <div id="container" class="mf-container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"><img src="../assets/images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" data-bs-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="/index.html">Home</a>
+                <a class="nav-link" href="#">¿Por qué Maser?</a>
+                <a class="nav-link" href="#">Comunidad</a>
+                <a class="nav-link active" aria-current="page" href="index.html"">Contacto</a>
+              </div>
+            </div>
+          </div>
+          <div class="div-time">
+            <time datetime="2023-01-19 10:19" class="mf-topbar--time mf-topbar--item">
+              <span id="hora">19/1/2023, 10:27:39</span>
+            </time>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <img class="heartsimg" src="../assets/images/corazones.png" alt="corazones">
+        <div>
+          <h1>CONTACTO</h1>
+          <p class="headerp">Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla</p>
+        </div>
+        <div class="container">
+          <form class="form-control-lg">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <input type="text" class="form-control" name="nombre" placeholder="Nombre">
+              </div>
+              <div class="col-md-6 mb-3">
+                <input type="text" class="form-control" name="apellido" placeholder="Apellido">
+              </div>
+              <div class="col-md-6 mb-3">
+                <input type="email" class="form-control" name="correo" placeholder="Correo">
+              </div>
+              <div class="col-md-6 mb-3">
+                <input type="tel" class="form-control" name="telefono" placeholder="Teléfono">
+              </div>
+            </div>
+            <div class="mb-3">
+              <select class="form-control form-select">
+                <option hidden selected>¿Cómo nos conociste?</option>
+                <option value="1">Instagram, Tik Tok, Facebook</option>
+                <option value="2">Publicidad</option>
+                <option value="3">Por un amigo</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <select class="form-control form-select">
+                <option hidden selected>Servicio que te interesa</option>
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+                <option value="3">Opción 3</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <div>
+                <label for="">Presupuesto:</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">300 - 450</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">500 - 800</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                <label class="form-check-label" for="inlineRadio3">1000 o más</label>
+              </div>
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" name="asunto" placeholder="Asunto">
+            </div>
+            <div class="mb-3">
+              <textarea class= "form-control" name="mensaje" cols="30" rows="10" placeholder="Cuéntanos más..."></textarea>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input mb-3" value="" id="defaultCheck1">
+              <label class="terms">Acepto los terminos y condiciones</label>
+            </div>
+            <div class="mb-3">
+              <p class="formp">Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla Loren ipsum bla bla bla</p>
+            </div>
+            <div>
+              <button class="button mb-3">
+                <span>Enviar</span>
+              </button>
+            </div>
+              <!-- <h3>Tu mensaje se ha enviado exitosamente</h3> -->
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer class="bloq-top top-info">
+    <div class="row">
+      <div class="col-lg-6">
+        <a href="/index.html" class="logo-footer "><img src="../assets/images/LogoFooter.png" alt=""></a>
+        <a class="joinus" href="#">Únete a nuestro equipo</a>
+      </div>
+      <div class="rrss">
+        <a href="https://www.instagram.com/" class="fa-brands fa-instagram"><iconify-icon icon="entypo-social:instagram-with-circle" style="color: #92a2cc;" width="40" height="40"></iconify-icon></iconify-icon></a>
+        <a href="https://www.facebook.com/"><iconify-icon inline icon="entypo-social:facebook-with-circle" style="color: #92a2cc;" width="40" height="40"></iconify-icon></a>
+        <a href="https://www.linkedin.com/"><iconify-icon inline icon="entypo-social:linkedin-with-circle" style="color: #92a2cc;" width="40" height="40"></iconify-icon></a>
+      </div>
+      <div class="terms top-info">
+        <a href="#" class="link-footer ">Política de Privacidad</a>
+        <a href="#" class="link-footer">Términos de Servicio</a>
+      </div>
+      </div>
+    <div class="copy top-info">
+      <p>&copy; Maser Agency - Todos los derechos reservados</p>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="../assets/js/main.js"></script>
+</html>
